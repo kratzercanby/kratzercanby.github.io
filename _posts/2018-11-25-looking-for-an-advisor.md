@@ -1,7 +1,8 @@
 ---
 author: aaron
 ---
-Looking for a research advisor in graduate school is scary. You probably don't know the professors very well yet, and you might not even know what they like to do. They have whole research lives at this point, and understanding what they have done and what they are currenly working on requires reading articles and making a list of professors that *might* be doing the kind of research you are interested in. There are so many reasons to continue to procrastinate--but here's some advice: just start talking. 
+Looking for a research advisor in graduate school is scary. You probably don't know the professors very well yet, and you might not even know what they like to do. They have whole research lives at this point, and understanding what they have done and what they are currenly working on requires reading articles and making a list of professors that *might* be doing the kind of research you are interested in. There are so many reasons to continue to procrastinate--but here's some advice: just start talking.
+
 --more--
 
 If you are actually going to read through every professor's last three papers, then great! Do it this weekend, and start talking next week. But if you don't get through them this weekend (or don't even start), then just start talking to people. It's easy to let a whole term or two pass by while you try to be "prepared" to talk to professors. Getting in early on research, especially in a master's program, is key to sucess. You'll learn a lot about your professors just by talking them. And in all honesty, most professors will be delighted you just are interested in their area of research. 
