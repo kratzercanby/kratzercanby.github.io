@@ -5,4 +5,4 @@ Markdown is a conversion process that takes simple text docuemnts and configurat
 
 <!--more-->
 
-This guide is based off the [Jekyll Step by Step Tutorial]{% link https://jekyllrb.com/docs/step-by-step/01-setup/}
+This guide is based off the [Jekyll Step by Step Tutorial]{% link https://jekyllrb.com/docs/step-by-step/01-setup/ %} 
