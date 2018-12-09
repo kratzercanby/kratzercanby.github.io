@@ -1,3 +1,5 @@
+remote_theme: karloespiritu/BlackDoc
+
 collections:
   authors:
     output: true
