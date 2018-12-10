@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      ReadMe &middot; Aaron Kratzer
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/blackdoc.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Aaron Kratzer
+        </a>
+      </h1>
+      <p class="lead">Master's Student</br>Appied Economics, Oregon State University</br>Class of 2020</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item active" href="/README.html">ReadMe</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about.html">About</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/styles.html">Theme Styles</a>
+          
+        
+      
+        
+      
+
+      <a class="sidebar-nav-item" href="https://github.com/karloespiritu/blackdoc/archive/master.zip">Download</a>
+      <hr>
+      <a class="sidebar-nav-item" href="https://github.com/karloespiritu/blackdoc">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v2.0.1</span>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">ReadMe</h1>
+  <h1 id="blackdoc">BlackDoc</h1>
+
+<p><img src="https://img.shields.io/badge/Jekyll-3.x-brightgreen.svg?style=flat-square" alt="Jekyll version" /></p>
+
+<p>BlackDoc is a two-column <a href="http://jekyllrb.com">Jekyll</a> theme that’s ideal for websites that require a master-detail layout for viewing of content. It’s based on <a href="http://getpoole.com">Poole</a>, the Jekyll butler, and the <a href="http://hyde.getpoole.com">Hyde</a> theme.</p>
+
+<p><img src="https://raw.githubusercontent.com/karloespiritu/blackdoc/master/public/images/blackdoc-screenshot.jpg" alt="BlackDoc screenshot" /></p>
+
+<h2 id="contents">Contents</h2>
+
+<ul>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#quick-start">Quick Start</a></li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#options">Options</a>
+    <ul>
+      <li><a href="#sidebar-menu">Sidebar menu</a></li>
+      <li><a href="#scrolling-sidebar-content">Scrolling sidebar content</a></li>
+      <li><a href="#themes">Themes</a></li>
+      <li><a href="#reverse-layout">Reverse layout</a></li>
+    </ul>
+  </li>
+  <li><a href="#development">Development</a></li>
+  <li><a href="#author">Author</a></li>
+  <li><a href="#license">License</a></li>
+  <li><a href="#thanks">Thanks</a></li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Now compatible with Jekyll 3.x</li>
+  <li>Two-column layout with scrolling sidebar content</li>
+  <li>Ideal for websites that require  master-detail view of content</li>
+</ul>
+
+<h2 id="quick-start">Quick Start</h2>
+
+<p>Download the zip file or clone the BlackDoc repo.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone git@github.com:karloespiritu/BlackDoc.git mysite
+<span class="nv">$ </span><span class="nb">cd </span>mysite
+</code></pre></div></div>
+<p>Make sure you have Ruby 2.2.5 or higher installed.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ruby <span class="nt">--version</span>
+ruby 2.2.5
+</code></pre></div></div>
+
+<p>Install bundler and install dependencies.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>bundler
+<span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Build and run your BlackDoc site.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jekyll serve
+</code></pre></div></div>
+
+<h2 id="usage">Usage</h2>
+
+<p>BlackDoc is a theme built on top of <a href="https://github.com/poole/poole">Poole</a>, which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See <a href="https://github.com/poole/poole#usage">the Poole usage guidelines</a> for how to install and use Jekyll.</p>
+
+<h2 id="options">Options</h2>
+
+<p>BlackDoc includes some customizable options, typically applied via classes on the <code class="highlighter-rouge">&lt;body&gt;</code> element.</p>
+
+<h3 id="sidebar-menu">Sidebar menu</h3>
+
+<p>Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page’s <a href="http://jekyllrb.com/docs/frontmatter/">front-matter</a>.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+title: About
+---
+</code></pre></div></div>
+
+<p><strong>Why require a specific layout?</strong> Jekyll will return <em>all</em> pages, including the <code class="highlighter-rouge">atom.xml</code>, and with an alphabetical sort order. To ensure the first link is <em>Home</em>, we exclude the <code class="highlighter-rouge">index.html</code> page from this list by specifying the <code class="highlighter-rouge">page</code> layout.</p>
+
+<h3 id="scrolling-sidebar-content">Scrolling sidebar content</h3>
+
+<p>By default, BlackDoc includes a scrolling sidebar that will display your markdown files in alphabetical order.</p>
+
+<h3 id="themes">Themes</h3>
+
+<p>BlackDoc ships with eight optional themes based on the <a href="https://github.com/chriskempson/base16">base16 color scheme</a>. Apply a theme to change the color scheme (mostly applies to sidebar and links).</p>
+
+<p>To use a theme, add anyone of the available theme classes to the <code class="highlighter-rouge">&lt;body&gt;</code> element in the <code class="highlighter-rouge">default.html</code> layout, like so:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"theme-base-08"</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<p>To create your own theme, look to the Themes section of <a href="https://github.com/karloespiritu/blackdoc/blob/master/public/css/blackdoc.css">included CSS file</a>. Copy any existing theme (they’re only a few lines of CSS), rename it, and change the provided colors.</p>
+
+<h3 id="reverse-layout">Reverse layout</h3>
+
+<p><img src="https://raw.githubusercontent.com/karloespiritu/BlackDoc/master/public/images/reverse-screenshot.png" alt="BlackDoc reverse screenshot" /></p>
+
+<p>BlackDoc’s page orientation can be reversed with a single class.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body</span> <span class="na">class=</span><span class="s">"layout-reverse"</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<h2 id="author">Author</h2>
+
+<p><strong>Karlo Espiritu</strong></p>
+<ul>
+  <li><a href="https://github.com/karloespiritu">https://github.com/karloespiritu</a></li>
+  <li><a href="https://twitter.com/karloespiritu">https://twitter.com/karloespiritu</a></li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>Open sourced under the <a href="LICENSE.md">MIT license</a>.</p>
+
+<p>\m/</p>
+
+<h2 id="thanks">Thanks</h2>
+
+<p>Thanks to <a href="https://twitter.com/mdo">@mdo</a> for creating the awesome <a href="http://getpoole.com">Poole</a> project.</p>
+
+</div>
+
+    </div>
+
+  </body>
+</html>

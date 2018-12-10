@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+title:            Aaron Kratzer
+tagline:          Learn, Practice, Teach
+description:      "Master's Student</br>Appied Economics, Oregon State University</br>Class of 2020"
 url:              https://github.com/karloespiritu/blackdoc
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
@@ -19,39 +19,13 @@ paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/my-jekyll-site/page:num' if you want to move your index pages
 
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
- 
-
-excerpt_separator: <!--more-->
 
 # Custom vars
 version:            2.0.1
 
 github:
   repo:             https://github.com/karloespiritu/blackdoc
-
