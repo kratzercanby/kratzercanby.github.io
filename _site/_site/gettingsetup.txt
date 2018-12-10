@@ -1,0 +1,5 @@
+After getting the Git repository setup on a computer, then we need to install Jekyll. This requires several things.
+
+Go to https://jekyllrb.com/docs/installation/ to see requirements. Installing Ruby using the RubyInstaller found here was pretty easy: https://www.ruby-lang.org/en/downloads/
+
+Installing GCC was much more complicated, but this site helped: https://preshing.com/20141108/how-to-install-the-latest-gcc-on-windows/
