@@ -1,4 +1,4 @@
-remote_theme: karloespiritu/BlackDoc
+theme: dinky
 
 collections:
   authors:
@@ -26,4 +26,3 @@ plugins:
   - jekyll-sitemap
  
 excerpt_separator: <!--more-->
-theme: jekyll-theme-minimal

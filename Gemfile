@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "jekyll-theme-dinky"
+
 gem 'jekyll'
 
 group :jekyll_plugins do
