@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blackdocpage
 title: Theme Styles
 ---
 
@@ -53,7 +53,7 @@ Images commented out to improve page loading speed.
 
 <dt>Definition List Title</dt>
 
-<dd>This is a definition list division.</dd>
+<dd>This is a definition list item.</dd>
 
 <dt>Definition</dt>
 
@@ -169,13 +169,84 @@ class InstrumentalSong < Song
 end
 ```
 
+Python Code
+
 ```python
 import matplotlib.pyplot as plt
 
-def myPlot(title="My Title", size=(800,600)):
+def myPrint(text, title="My Title"):
     """This is a plotting function"""
+    print(title)
+    print(text)
 
-Let's plot!
+myPrint("Holy Cow! This is a great printing funtion!")
+```
+
+R Code
+
+```R
+require("mosaic")
+
+
+##----------- IMPORTING DATA -------------
+# set working directory
+setwd("E:/Documents/odrive/kratzer.canby/College_future/Classes/Stats/Labs/Lab Week 9/")
+
+# read data from file into variable dataframe
+MILE <- read.delim("MILEAGE.csv", sep=",")
+
+# take a look
+hist(MILE$mpg, breaks=seq(20,46,2),
+     main="Gas Mileage of ")
+favstats(MILE$mpg)
+```
+
+Stata Code
+
+```stata
+*Clear all variables
+	clear
+
+*Change install directory, and set personal directory
+	net set ado "\\Client\D$\" 
+	sysdir set PERSONAL "\\Client\D$\"
+
+*change to directory
+	cd "\\Client\B$\Final"
+
+
+*-----------------------------------
+*            QUESTION 1
+*-----------------------------------
+*Clear eststo memory
+eststo clear
+*Open data
+use hprice.dta, clear
+
+	*_____________ part a _______________
+	* create ln(price) and ln(dist)
+	gen lprice = log(price)
+	gen ldist = log(dist)
+	* estimate OLS log-log model
+	eststo OLS: reg lprice ldist area age rooms baths year, robust
+		
+	*____________ part b ______________	
+	* create indicator for less than 5 miles
+	gen D5 = (dist<5*5280)		// 1 if within 5 miles
+	gen post = (year==1981)		// 1 if 1981 (after incin. built)
+	gen D5_post = D5*post		// 1 if within 5 miles and after incin. built
+	* DID method
+	eststo DID: reg lprice D5 post D5_post, robust
+	eststo DID2: reg lprice D5 post D5_post area age rooms baths, robust
+	
+	*CREATE TABLE
+	esttab OLS DID DID2 using stata_1b.tex, replace b(4) se(3) style(tex) nonumbers ///
+		title(Regressions of \lprice\label{tab1b}) wide nogaps compress ///
+		star(* 0.10 ** 0.05 *** 0.01) ///
+		mtitles("Simple \eqref{eqpricelin}" ///
+				"DID \eqref{eqpricedid}" ///
+				"DID w/ controls")
+
 ```
 
 

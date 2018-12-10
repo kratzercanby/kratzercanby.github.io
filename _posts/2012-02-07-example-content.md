@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blackdocpost
 title: Example content
 ---
 

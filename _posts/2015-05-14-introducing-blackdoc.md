@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blackdocpost
 title: Introducing BlackDoc
 ---
 

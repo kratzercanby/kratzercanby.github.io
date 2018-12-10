@@ -6,14 +6,14 @@ highlighter:      rouge
 title:            Aaron Kratzer
 tagline:          Learn, Practice, Teach
 description:      "Master's Student</br>Appied Economics, Oregon State University</br>Class of 2020"
-url:              https://github.com/karloespiritu/blackdoc
+url:              aaronkratzer.com
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
 author:
-  name:           Karlo Espiritu
-  url:            https://twitter.com/karloespiritu
+  name:           Aaron Kratzer
+  url:            aaronkratzer.com
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -29,3 +29,14 @@ version:            2.0.1
 
 github:
   repo:             https://github.com/karloespiritu/blackdoc
+
+social:
+  linkedin:         https://www.linkedin.com/in/aaron-kratzer-454a1069
+  researchgate:     https://www.researchgate.net/profile/Aaron_Kratzer
+  googlescholar:    https://scholar.google.com/citations?user=GxiEDHoAAAAJ&hl=en
+
+blackdocauthor:
+  name:           Karlo Espiritu
+  url:            https://twitter.com/karloespiritu
+
+excerpt_separator: "<!--more-->"

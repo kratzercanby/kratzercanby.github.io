@@ -62,6 +62,71 @@
       
         
           
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about.html">About Me</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/blog.html">Blog</a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+      <a class="sidebar-nav-item" href="/files/Kratzer-Aaron-Curriculum-Vitae.pdf">Curriculum Vitae</a>
+
+      <hr>
+        My Media
+        <a class="sidebar-nav-item" href="https://www.linkedin.com/in/aaron-kratzer-454a1069">LinkedIn</a>
+        <a class="sidebar-nav-item" href="https://scholar.google.com/citations?user=GxiEDHoAAAAJ&hl=en">Google Scholar</a>
+        <a class="sidebar-nav-item" href="https://www.researchgate.net/profile/Aaron_Kratzer">ResearchGate</a>
+      <hr>
+
+      Site Theme Pages
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
             <a class="sidebar-nav-item" href="/README.html">ReadMe</a>
           
         
@@ -74,10 +139,18 @@
       
         
           
-            <a class="sidebar-nav-item" href="/about.html">About</a>
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/blackdocblog.html">BlackDoc Posts</a>
           
         
       
+        
+          
         
       
         
@@ -92,16 +165,17 @@
       
         
       
-
+        
+          
+        
+      
       <a class="sidebar-nav-item" href="https://github.com/karloespiritu/blackdoc/archive/master.zip">Download</a>
-      <hr>
-      <a class="sidebar-nav-item" href="https://github.com/karloespiritu/blackdoc">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v2.0.1</span>
     </nav>
 
     <p>&copy; 2018. All rights reserved.</p>
   </div>
 </div>
+      
 
 
     <div class="content container">
@@ -155,7 +229,7 @@
 
 <dt>Definition List Title</dt>
 
-<dd>This is a definition list division.</dd>
+<dd>This is a definition list item.</dd>
 
 <dt>Definition</dt>
 
@@ -280,13 +354,82 @@
 <span class="k">end</span>
 </code></pre></div></div>
 
+<p>Python Code</p>
+
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 
-<span class="k">def</span> <span class="nf">myPlot</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s">"My Title"</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span><span class="mi">600</span><span class="p">)):</span>
+<span class="k">def</span> <span class="nf">myPrint</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s">"My Title"</span><span class="p">):</span>
     <span class="s">"""This is a plotting function"""</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 
-<span class="n">Let</span><span class="s">'s plot!</span><span class="err">
+<span class="n">myPrint</span><span class="p">(</span><span class="s">"Holy Cow! This is a great printing funtion!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>R Code</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="s2">"mosaic"</span><span class="p">)</span><span class="w">
+
+
+</span><span class="c1">##----------- IMPORTING DATA -------------</span><span class="w">
+</span><span class="c1"># set working directory</span><span class="w">
+</span><span class="n">setwd</span><span class="p">(</span><span class="s2">"E:/Documents/odrive/kratzer.canby/College_future/Classes/Stats/Labs/Lab Week 9/"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># read data from file into variable dataframe</span><span class="w">
+</span><span class="n">MILE</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read.delim</span><span class="p">(</span><span class="s2">"MILEAGE.csv"</span><span class="p">,</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">","</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># take a look</span><span class="w">
+</span><span class="n">hist</span><span class="p">(</span><span class="n">MILE</span><span class="o">$</span><span class="n">mpg</span><span class="p">,</span><span class="w"> </span><span class="n">breaks</span><span class="o">=</span><span class="n">seq</span><span class="p">(</span><span class="m">20</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">2</span><span class="p">),</span><span class="w">
+     </span><span class="n">main</span><span class="o">=</span><span class="s2">"Gas Mileage of "</span><span class="p">)</span><span class="w">
+</span><span class="n">favstats</span><span class="p">(</span><span class="n">MILE</span><span class="o">$</span><span class="n">mpg</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
+
+<p>Stata Code</p>
+
+<pre><code class="language-stata">*Clear all variables
+	clear
+
+*Change install directory, and set personal directory
+	net set ado "\\Client\D$\" 
+	sysdir set PERSONAL "\\Client\D$\"
+
+*change to directory
+	cd "\\Client\B$\Final"
+
+
+*-----------------------------------
+*            QUESTION 1
+*-----------------------------------
+*Clear eststo memory
+eststo clear
+*Open data
+use hprice.dta, clear
+
+	*_____________ part a _______________
+	* create ln(price) and ln(dist)
+	gen lprice = log(price)
+	gen ldist = log(dist)
+	* estimate OLS log-log model
+	eststo OLS: reg lprice ldist area age rooms baths year, robust
+		
+	*____________ part b ______________	
+	* create indicator for less than 5 miles
+	gen D5 = (dist&lt;5*5280)		// 1 if within 5 miles
+	gen post = (year==1981)		// 1 if 1981 (after incin. built)
+	gen D5_post = D5*post		// 1 if within 5 miles and after incin. built
+	* DID method
+	eststo DID: reg lprice D5 post D5_post, robust
+	eststo DID2: reg lprice D5 post D5_post area age rooms baths, robust
+	
+	*CREATE TABLE
+	esttab OLS DID DID2 using stata_1b.tex, replace b(4) se(3) style(tex) nonumbers ///
+		title(Regressions of \lprice\label{tab1b}) wide nogaps compress ///
+		star(* 0.10 ** 0.05 *** 0.01) ///
+		mtitles("Simple \eqref{eqpricelin}" ///
+				"DID \eqref{eqpricedid}" ///
+				"DID w/ controls")
+
+</code></pre>
 
 <h2 id="blockquotes">Blockquotes</h2>
 

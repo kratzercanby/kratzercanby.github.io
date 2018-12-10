@@ -1,0 +1,13 @@
+---
+author: aaron
+layout: post
+---
+Looking for a research advisor in graduate school is scary. You probably don't know the professors very well yet, and you might not even know what they like to do. They have whole research lives at this point, and understanding what they have done and what they are currenly working on requires reading articles and making a list of professors that *might* be doing the kind of research you are interested in. There are so many reasons to continue to procrastinate--but here's some advice: just start talking.
+
+<!--more-->
+
+If you are actually going to read through every professor's last three papers, then great! Do it this weekend, and start talking next week. But if you don't get through them this weekend (or don't even start), then just start talking to people. It's easy to let a whole term or two pass by while you try to be "prepared" to talk to professors. Getting in early on research, especially in a master's program, is key to sucess. You'll learn a lot about your professors just by talking them. And in all honesty, most professors will be delighted you just are interested in their area of research. 
+
+Most deparments have a list on their website about the "focus areas" of each professor. Find the top 3-5 professors that are doing something that you might be interested, and email them. If you have a small department, you could even just stop by their office and ask if there is a good time to talk to them about their research in the next week or two. Taking the initiative early on to connect will impress them more than remembering the titles to their last few papers. Once you have the meetings scheduled, that will give you a deadline to do a little background research. Reading the last few papers they authored is fabulous, but reading the abstracts of their last 10 years' papers is more realistic and actually gives you a better idea of their breadth of work. Professors will often refer to research they worked on 10 or 15 years ago, and if some of their papers are strictly interesting to you, your time is better spent talking to them in person about what their interests are. 
+
+In summary, don't let your to-do list get in the way of making real connections. Most professors are kind people that want to talk about their research. If you end up talking to one of the professors that has higher expectations of reading about their research beforehand, they will probably let you know, and then you'll have a reason to come back after having done that.
