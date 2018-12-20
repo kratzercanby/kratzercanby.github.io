@@ -7,7 +7,7 @@ title:            Aaron Kratzer
 tagline:          Learn, Practice, Teach
 description:      "Master's Student</br>Appied Economics, Oregon State University</br>Class of 2020"
 url:              aaronkratzer.com
-baseurl:          /
+baseurl:          
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
