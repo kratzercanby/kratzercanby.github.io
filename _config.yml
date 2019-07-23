@@ -1,27 +1,44 @@
-collections:
-  authors:
-    output: true
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Setup
+title:            Aaron Kratzer
+tagline:          Learn, Practice, Teach
+description:      "Master's Student</br>Appied Economics, Oregon State University</br>Class of 2020"
+url:              aaronkratzer.com
+baseurl:          /
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
+
+author:
+  name:           Aaron Kratzer
+  url:            aaronkratzer.com
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate
   - jekyll-sitemap
- 
-excerpt_separator: <!--more-->
-theme: jekyll-theme-minimal
+  - jekyll-seo-tag
+
+# Custom vars
+version:            2.0.1
+
+github:
+  repo:             https://github.com/karloespiritu/blackdoc
+
+social:
+  linkedin:         https://www.linkedin.com/in/aaron-kratzer-454a1069
+  researchgate:     https://www.researchgate.net/profile/Aaron_Kratzer
+  googlescholar:    https://scholar.google.com/citations?user=GxiEDHoAAAAJ&hl=en
+
+blackdocauthor:
+  name:           Karlo Espiritu
+  url:            https://twitter.com/karloespiritu
+
+excerpt_separator: "<!--more-->"

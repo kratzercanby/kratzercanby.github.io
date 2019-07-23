@@ -1,5 +1,6 @@
 ---
 author: aaron
+layout: post
 ---
 Be prepared to be disappointed. Some of the most successful professors I have met told me that they did not get into many of the grad schools they applied to. Personally, I did not get into *any* of the PhD programs I applied to the first time around. However, if you're smart about it, and understand a little about how academia works, then you can downgrade your stress from unbearable to just above annoying.
 

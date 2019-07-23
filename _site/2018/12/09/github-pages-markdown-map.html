@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Github Pages Markdown Map &middot; Aaron Kratzer
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/blackdoc.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Aaron Kratzer
+        </a>
+      </h1>
+      <p class="lead">Master's Student</br>Appied Economics, Oregon State University</br>Class of 2020</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about.html">About Me</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/blog.html">Blog</a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+      <a class="sidebar-nav-item" href="/files/Kratzer-Aaron-Curriculum-Vitae.pdf">Curriculum Vitae</a>
+
+      <hr>
+        My Media
+        <a class="sidebar-nav-item" href="https://www.linkedin.com/in/aaron-kratzer-454a1069">LinkedIn</a>
+        <a class="sidebar-nav-item" href="https://scholar.google.com/citations?user=GxiEDHoAAAAJ&hl=en">Google Scholar</a>
+        <a class="sidebar-nav-item" href="https://www.researchgate.net/profile/Aaron_Kratzer">ResearchGate</a>
+      <hr>
+
+      Site Theme Pages
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/README.html">ReadMe</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/blackdocblog.html">BlackDoc Posts</a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/styles.html">Theme Styles</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+      <a class="sidebar-nav-item" href="https://github.com/karloespiritu/blackdoc/archive/master.zip">Download</a>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved.</p>
+  </div>
+</div>
+      
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Github Pages Markdown Map</h1>
+  <span class="post-date">09 Dec 2018</span>
+  <p>Markdown is a conversion process that takes simple text docuemnts and configuration files and turns them into a full static website directory. Github Pages can automatically generate a simple website based on Jekyll’s markdown language. Let’s look at a simple mapping of the default directories used by Jekyll, to get an idea of how markdown can make for an easy-to-update website.</p>
+
+<!--more-->
+
+<p>This guide is based off the <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">Jekyll Step by Step Tutorial</a>, and is very helpful when getting started with markdown.</p>
+
+<p>The basic file structure:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-- assets           (Site code and images that are imported to pages for formatting)
+|   +-- css
+|   +-- images
+|   +-- js
++-- _authors         (Bio's about each contributing author)
++-- _data            (Navigation markdown file)
++-- _includes        (html pages to include in other pages, like the navigation bar)
++-- _layouts         (html layouts for types of pages)
++-- _posts           (blog post markdown files)
++-- _sass            (main css style, as scss)
++-- _site            (where the command-line ruby tool generates the site)
+</code></pre></div></div>
+
+<p>Let’s explore each folder a little bit more:</p>
+
+<h3 id="assets">assets</h3>
+
+<p>If you have javascript or images, they can go in the appropriate files. The CSS files are actually generated by the Jekyll conversion, from the SCSS files (see the _sass section).</p>
+
+<h3 id="_authors">_authors</h3>
+
+<p>This folder contains</p>
+
+<h3 id="_data">_data</h3>
+
+<h3 id="_includes">_includes</h3>
+
+<h3 id="_layouts">_layouts</h3>
+
+<h3 id="_posts">_posts</h3>
+
+<h3 id="_sass">_sass</h3>
+
+<h3 id="_site">_site</h3>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2018/11/25/looking-for-an-advisor.html">
+            Looking For An Advisor
+            <small>25 Nov 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2018/09/01/applying-to-graduate-schools.html">
+            Applying To Graduate Schools
+            <small>01 Sep 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/05/14/introducing-blackdoc.html">
+            Introducing BlackDoc
+            <small>14 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

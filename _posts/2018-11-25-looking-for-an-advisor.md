@@ -1,5 +1,6 @@
 ---
 author: aaron
+layout: post
 ---
 Looking for a research advisor in graduate school is scary. You probably don't know the professors very well yet, and you might not even know what they like to do. They have whole research lives at this point, and understanding what they have done and what they are currenly working on requires reading articles and making a list of professors that *might* be doing the kind of research you are interested in. There are so many reasons to continue to procrastinate--but here's some advice: just start talking.
 
